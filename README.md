@@ -2,8 +2,6 @@
 
 A beautiful, interactive credit card form built with pure HTML, CSS, and JavaScript. Experience a seamless and engaging way to input your credit card information, with real-time updates and a dynamic card preview that brings your payment details to life.
 
-![Credit Card Form Screenshot](https://user-images.githubusercontent.com/yourusername/screenshot.png)
-
 ## 🌟 Welcome!
 
 Welcome to our interactive Credit Card Form! Whether you're shopping online, making a donation, or just exploring innovative web components, this form offers an intuitive and visually appealing way to enter credit card information. Say goodbye to dull, static forms and enjoy a more engaging experience.
@@ -63,3 +61,48 @@ Clone the repository:
 
 ```bash
 git clone https://github.com/yourusername/credit-card-form.git
+```
+
+Navigate to the project directory:
+
+```bash
+cd credit-card-form
+```
+
+Open `index.html` in your browser:
+
+```bash
+open index.html
+```
+
+### Usage
+
+Include the HTML, CSS, and JavaScript files in your project. Customize the styles and scripts as needed to fit your application's design and functionality.
+
+## 🤝 Contributing
+
+We welcome contributions! If you'd like to help improve the form, please:
+
+1. **Fork the project**
+2. **Create your feature branch** (`git checkout -b feature/AmazingFeature`)
+3. **Commit your changes** (`git commit -m 'Add some AmazingFeature'`)
+4. **Push to the branch** (`git push origin feature/AmazingFeature`)
+5. **Open a Pull Request**
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 🧑‍💻 Author
+
+- **Your Name** - [@yourusername](https://github.com/yourusername)
+
+## 🙏 Acknowledgments
+
+- Thanks to [Muhammed Erdem](https://github.com/muhammederdem) for the original Vue.js version of the credit card form.
+- Emoji icons by [EmojiOne](https://www.joypixels.com/).
+
+---
+
+Made with ❤️ by [Raghdkun](https://github.com/yourusername)
+
