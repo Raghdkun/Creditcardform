@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Credit Card Form</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,500,600,700|Source+Sans+Pro:400,600,700&display=swap" rel="stylesheet">
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="wrapper" id="app">
+    <div class="card-form">
+      <div class="card-list">
+        <div class="card-item" id="card-item">
+          <div class="card-item__side -front">
+            <div class="card-item__focus" id="card-item-focus"></div>
+            <div class="card-item__cover">
+              <img src="" class="card-item__bg" id="card-bg">
+            </div>
+
+            <div class="card-item__wrapper">
+              <div class="card-item__top">
+                <img src="https://raw.githubusercontent.com/muhammederdem/credit-card-form/master/src/assets/images/chip.png" class="card-item__chip">
+                <div class="card-item__type">
+                  <img src="" alt="" class="card-item__typeImg" id="card-type-img">
+                </div>
+              </div>
+              <label for="cardNumber" class="card-item__number" id="card-number-view">
+                <div id="card-number-display">#### #### #### ####</div>
+              </label>
+              <div class="card-item__content">
+                <label for="cardName" class="card-item__info" id="card-name-view">
+                  <div class="card-item__holder">Card Holder</div>
+                  <div class="card-item__name" id="card-name-display">Full Name</div>
+                </label>
+                <div class="card-item__date" id="card-date-view">
+                  <label for="cardMonth" class="card-item__dateTitle">Expires</label>
+                  <label for="cardMonth" class="card-item__dateItem">
+                    <span id="card-month-display">MM</span>
+                  </label>
+                  /
+                  <label for="cardYear" class="card-item__dateItem">
+                    <span id="card-year-display">YY</span>
+                  </label>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card-item__side -back">
+            <div class="card-item__cover">
+              <img src="" class="card-item__bg" id="card-bg-back">
+            </div>
+            <div class="card-item__band"></div>
+            <div class="card-item__cvv">
+              <div class="card-item__cvvTitle">CVV</div>
+              <div class="card-item__cvvBand" id="card-cvv-display">
+                <!-- CVV will be displayed here -->
+              </div>
+              <div class="card-item__type">
+                <img src="" class="card-item__typeImg" id="card-type-img-back">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card-form__inner">
+        <div class="card-input">
+          <label for="cardNumber" class="card-input__label">Card Number</label>
+          <input type="text" id="cardNumber" class="card-input__input" autocomplete="off" data-ref="cardNumber" maxlength="19">
+        </div>
+        <div class="card-input">
+          <label for="cardName" class="card-input__label">Card Holders</label>
+          <input type="text" id="cardName" class="card-input__input" autocomplete="off" data-ref="cardName">
+        </div>
+        <div class="card-form__row">
+          <div class="card-form__col">
+            <div class="card-form__group">
+              <label for="cardMonth" class="card-input__label">Expiration Date</label>
+              <select class="card-input__input -select" id="cardMonth" data-ref="cardDate">
+                <option value="" disabled selected>Month</option>
+                <!-- Months will be added dynamically -->
+              </select>
+              <select class="card-input__input -select" id="cardYear" data-ref="cardDate">
+                <option value="" disabled selected>Year</option>
+                <!-- Years will be added dynamically -->
+              </select>
+            </div>
+          </div>
+          <div class="card-form__col -cvv">
+            <div class="card-input">
+              <label for="cardCvv" class="card-input__label">CVV</label>
+              <input type="text" class="card-input__input" id="cardCvv" maxlength="4" autocomplete="off">
+            </div>
+          </div>
+        </div>
+
+        <button class="card-form__button" id="card-submit">
+          Submit
+        </button>
+      </div>
+    </div>
+  </div>
+  <!-- JavaScript -->
+  <script src="main.js"></script>
+</body>
+</html>
