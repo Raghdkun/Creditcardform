@@ -81,7 +81,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 🧑‍💻 Author
 
-- **Raghdkun** - [@yraghdkun](https://github.com/raghdkun)
+- **Raghdkun** - [@raghdkun](https://github.com/raghdkun)
 
 ## 🙏 Acknowledgments
 
