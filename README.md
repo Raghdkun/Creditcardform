@@ -8,7 +8,7 @@ Welcome to our interactive Credit Card Form! Whether you're shopping online, mak
 
 ## 🎥 Live Demo
 
-See it in action! Visit the [live demo](https://yourusername.github.io/credit-card-form) to interact with the form yourself.
+See it in action! Visit the [live demo](https://raghdjun.github.io/Creditcardform) to interact with the form yourself.
 
 ## ✨ Features
 
@@ -26,7 +26,7 @@ Our Credit Card Form is more than just a form; it's an experience. By providing 
 
 Ready to dive in? You can start using the form right away:
 
-1. **Visit the Live Demo:** [Credit Card Form Demo](https://yourusername.github.io/credit-card-form)
+1. **Visit the Live Demo:** [Credit Card Form Demo](https://raghdjun.github.io/Creditcardform)
 2. **Interact with the Form:** Fill in the fields and watch as the card updates in real-time.
 3. **Try Different Cards:** See how the card type detection works by entering different card numbers.
 
@@ -44,12 +44,6 @@ Want to make it your own? Here are some ways to customize the form:
 - **Colors and Styles:** Modify the CSS to change colors, fonts, and other stylistic elements.
 - **Functionality:** Extend the JavaScript to add new features or integrate with your payment processing system.
 
-## 💬 Feedback
-
-We'd love to hear from you! If you have any feedback, suggestions, or just want to share how you're using the form, feel free to reach out.
-
-- **Email:** [your.email@example.com](mailto:your.email@example.com)
-- **GitHub Issues:** [Create an Issue](https://github.com/yourusername/credit-card-form/issues)
 
 ## 🛠️ For Developers
 
@@ -60,7 +54,7 @@ If you're a developer interested in integrating this form into your project, fol
 Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/credit-card-form.git
+git clone https://github.com/raghdkun/Creditcardform.git
 ```
 
 Navigate to the project directory:
@@ -79,15 +73,7 @@ open index.html
 
 Include the HTML, CSS, and JavaScript files in your project. Customize the styles and scripts as needed to fit your application's design and functionality.
 
-## 🤝 Contributing
 
-We welcome contributions! If you'd like to help improve the form, please:
-
-1. **Fork the project**
-2. **Create your feature branch** (`git checkout -b feature/AmazingFeature`)
-3. **Commit your changes** (`git commit -m 'Add some AmazingFeature'`)
-4. **Push to the branch** (`git push origin feature/AmazingFeature`)
-5. **Open a Pull Request**
 
 ## 📄 License
 
@@ -95,7 +81,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 🧑‍💻 Author
 
-- **Your Name** - [@yourusername](https://github.com/yourusername)
+- **Raghdkun** - [@yraghdkun](https://github.com/raghdkun)
 
 ## 🙏 Acknowledgments
 
@@ -104,5 +90,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-Made with ❤️ by [Raghdkun](https://github.com/yourusername)
+Made with ❤️ by [Raghdkun](https://github.com/raghdkun)
 
